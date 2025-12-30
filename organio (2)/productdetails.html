@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Details | Nam Angadi</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="	" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/ficon.png"
+      type="image/x-icon"
+    />
+    <!-- Mobile Specific Meta -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/video.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="assets/css/rs6.css" />
+    <link rel="stylesheet" href="assets/css/zoomit.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      .slick-dots li button{
+        /* visibility: hidden; */
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="organio-wrapper">
+    <!--<div id="preloader"></div>-->
+    <div class="up">
+      <a href="#" class="scrollup text-center"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
+    </div>
+    <!-- Start of header section
+	============================================= -->
+  <header id="organio-header" class="organio-header-section header-style-one">
+    <div class="header-top">
+      <div class="container">
+        <div
+          class="header-top-content d-flex justify-content-lg-between justify-content-end align-items-center"
+        >
+          <div class="header-slug">
+            <span> Welcome to our Nam Angadi </span>
+          </div>
+          
+          <div class="or-header-cart-btn or-canvas-cart-trigger ">
+            <i class="fas fa-shopping-cart"></i>  Cart:<span> ₹ 0.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="organic-main-navigation">
+      <div class="container">
+        <div class="organic-header-content position-relative">
+          <div class="site-logo">
+            <a href="/"><img src="assets/logo.jpeg" alt="" /></a>
+          </div>
+          <nav class="main-navigation-area clearfix ul-li">
+            <ul class="menu-navigation left-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+            </ul>
+            <ul class="menu-navigation right-nav">
+              <li><a href="#">Retail Shops</a></li>
+              <li><a href="contact.html">Contact </a></li>
+              <li>
+                <a href="login.html"><i class="fas fa-user-circle"></i> </i> Login </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!--<div class="header-search-btn search-btn">
+            <button class="search-box-outer">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>-->
+
+          <div class="header-search-btn search-btn">
+            <form action="products.html">
+              <input type="text" name="q" placeholder="Search for Products, Brands and More" />
+              <button type="submit">
+                <i class="fas fa-search"> </i>
+              </button>
+            </form>
+          </div>
+
+          <!-- <div class="header-search-btn cart-btn">
+            <button class="or-canvas-cart-trigger">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="mobile_menu position-relative">
+      <div class="mobile_menu_button open_mobile_menu">
+        <i class="fal fa-bars"></i>
+      </div>
+      <div class="mobile_menu_wrap">
+        <div class="mobile_menu_overlay open_mobile_menu"></div>
+        <div class="mobile_menu_content">
+          <div class="mobile_menu_close open_mobile_menu">
+            <i class="fal fa-times"></i>
+          </div>
+          <div class="m-brand-logo">
+            <a href="/"><img src="assets/logo.jpeg" alt="" /></a>
+          </div>
+          <div class="mobile-search-wrapper position-relative">
+            <form action="#">
+              <input type="text" placeholder="Search Here..." />
+              <button><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+          <nav class="mobile-main-navigation clearfix ul-li">
+            <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+              <li>
+                <a href="login.html"><i class="fas fa-user-circle"></i> </i> Login </a>
+              </li>
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">Retail Shops</a></li>
+              <li><a href="contact.html">Contact </a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- /Mobile-Menu -->
+    </div>
+  </header>
+    <div class="search-popup">
+      <button class="close-search style-two">
+        <span class="fal fa-times"></span>
+      </button>
+      <button class="close-search"><span class="fa fa-arrow-up"></span></button>
+      <form method="post" action="">
+        <div class="form-group">
+          <input
+            type="search"
+            name="search-field"
+            value=""
+            placeholder="Search Here"
+            required=""
+          />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </form>
+    </div>
+    <div class="or-ofcanvas-cart-wrapper">
+      <div class="or-ofcanvas-cart-content">
+        <div
+          class="title-area d-flex justify-content-between align-items-center"
+        >
+          <div class="cart-title">
+            <span>Cart</span>
+          </div>
+          <div class="cart-close">
+            <button class="or-canvas-cart-trigger">
+              <i class="fal fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="or-ofcart-product-wrapper">
+          <div
+            class="or-ofcart-product-item d-flex align-items-center position-relative"
+          >
+            <div class="pro-remove position-absolute">
+              <i class="fal fa-times"></i>
+            </div>
+            <div class="or-ofcart-product-img">
+              <img src="assets/img/product/cabbage.jpg" alt="" />
+            </div>
+            <div class="or-ofcart-product-text headline">
+              <h3><a href="#">Cabbage - 500g</a></h3>
+              <span>1 x ₹17.00</span>
+            </div>
+          </div>
+          <div
+            class="or-ofcart-product-item d-flex align-items-center position-relative"
+          >
+            <div class="pro-remove position-absolute">
+              <i class="fal fa-times"></i>
+            </div>
+            <div class="or-ofcart-product-img">
+              <img src="assets/img/product/indiagatebasmati.jpg" alt="" />
+            </div>
+            <div class="or-ofcart-product-text headline">
+              <h3><a href="#">India Gate Basmati Rice - 1kg</a></h3>
+              <span>1 x ₹120.00</span>
+            </div>
+          </div>
+          <div
+            class="or-ofcart-product-item d-flex align-items-center position-relative"
+          >
+            <div class="pro-remove position-absolute">
+              <i class="fal fa-times"></i>
+            </div>
+            <div class="or-ofcart-product-img">
+              <img src="assets/img/product/everestturmeric.jpg" alt="" />
+            </div>
+            <div class="or-ofcart-product-text headline">
+              <h3><a href="#">Everest Turmeric Powder - 100g</a></h3>
+              <span>2 x ₹45.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="or-ofcart-total text-center">
+          <span>Subtotal: ₹227.00</span>
+          <div class="total-btn">
+            <a href="cart.html">View Cart</a>
+            <a href="checkout.html">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of header section
+	============================================= -->
+
+    <!-- Start of Breadcrumb section
+	============================================= -->
+    <section
+      id="or-breadcrumbs"
+      class="or-breadcrumbs-section position-relative"
+      data-background="assets/img/bg/title2.webp"
+    >
+      <div class="background_overlay"></div>
+      <div class="container">
+        <div class="or-breadcrumbs-content text-center">
+          <div class="page-title headline"><h1>Shop Details</h1></div>
+          <div class="or-breadcrumbs-items ul-li">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li>Shop Details</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Breadcrumb section
+	============================================= -->
+
+    <!-- Start of Shop Details section
+	============================================= -->
+    <section id="or-shop-details" class="or-shop-details-section">
+      <div class="container">
+        <div class="or-shop-details-content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="shop-details-img-slider-area">
+                <div class="shop-details-img-slider">
+                  <div class="shop-details-img-wrap">
+                    <img
+                      src="assets/img/product/indiagatebasmati1.jpg"
+                      alt=""
+                      data-zoomed="assets/img/product/indiagatebasmati1.jpg"
+                    />
+                  </div>
+                  <div class="shop-details-img-wrap">
+                    <img
+                      src="assets/img/product/indiagatebasmati2.jpg"
+                      alt=""
+                      data-zoomed="assets/img/product/indiagatebasmati2.jpg"
+                    />
+                  </div>
+                  <div class="shop-details-img-wrap">
+                    <img
+                      src="assets/img/product/indiagatebasmati3.jpg"
+                      alt=""
+                      data-zoomed="assets/img/product/indiagatebasmati3.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="shop-details-img-thumb">
+                  <div class="or-thumb-img">
+                    <img src="assets/img/product/indiagatebasmati1.jpg" alt="" />
+                  </div>
+                  <div class="or-thumb-img">
+                    <img src="assets/img/product/indiagatebasmati2.jpg" alt="" />
+                  </div>
+                  <div class="or-thumb-img">
+                    <img src="assets/img/product/indiagatebasmati3.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="shop-details-text headline pera-content">
+                <div class="shop-details-title">
+                  <h3>India Gate Basmati Rice  </h3>
+                </div>
+                <div class="shop-details-rate-review ul-li d-flex">
+                  <div class="shop-details-rate">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="shop-details-review">
+                    (4.9 Based on 02 Reviews)
+                  </div>
+                  <div class="shop-details-review">
+                    <span>02 Reviews</span> <span>24 orders</span>
+                  </div>
+                </div>
+                <div class="shop-details-price">₹1000</div>
+                <div class="shop-details-text-decs">
+                  India Gate Basmati Rice features long, aromatic grains that cook fluffy and separate. Perfect for daily cooking and special dishes like biryani and pulao.
+
+                </div>
+
+                <div class="shop-details-option">
+                  <span class="option-title">Quantity:</span>
+                  <div class="shop-quantity-option d-flex">
+                    <div
+                      class="quantity-field position-relative d-inline-block"
+                    >
+                      <input
+                        type="text"
+                        name="select1"
+                        value="1"
+                        class="quantity-input-arrow quantity-input-2 text-center"
+                      />
+                    </div>
+                    <div class="stock-avaiable">5 kg</div>
+                  </div>
+                </div>
+                <div class="shop-details-btn">
+                  <a href="cart.html">Add To Cart</a>
+                  <a href="#">Add To Wishlist</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Shop Details section
+	============================================= -->
+
+    <!-- Start of Shop details description tab section
+	============================================= -->
+    <section id="or-shop-details-tab" class="or-shop-details-tab-section">
+      <div class="container">
+        <div class="or-shop-details-review-tab-content">
+          <div class="or-shop-review-tab-btn">
+            <ul
+              class="nav nav-tabs justify-content-center"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  Description
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Additional info
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  Review (02)
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="or-shop-details-tab-textarea">
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <div class="shop-details-description-text text-center">
+                  India Gate Basmati Rice is known for its long, slender grains and natural aroma.
+                  It cooks fluffy with each grain remaining separate, making it ideal for a variety of Indian dishes.
+
+                  Perfect for everyday meals as well as special occasions, this basmati rice delivers
+                  consistent taste and quality in every serving. Suitable for dishes like biryani, pulao, fried rice, and steamed rice.
+
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <div class="product-description-text pera-content">
+                  <p>
+                    India Gate Basmati Rice is carefully selected for its long, slender grains and
+                    pleasant natural aroma. Each grain cooks evenly, resulting in a light, fluffy
+                    texture that enhances the overall taste of your meals. The rice maintains its
+                    shape after cooking, making it a dependable choice for both daily cooking and
+                    special occasions.
+                  </p>
+                  <p>
+                    Widely used in Indian kitchens, this basmati rice is suitable for a variety of
+                    recipes such as biryani, pulao, steamed rice, and fried rice. When cooked, it
+                    absorbs flavors well while retaining its distinct grain structure, offering a
+                    consistent and satisfying cooking experience every time.
+                  </p>
+                  <table class="table-responsive">
+                    <tr>
+                      <td class="desc-title">Quantity</td>
+                      <td class="desc-value">5 kg</td>
+                    </tr>
+                    <tr>
+                      <td class="desc-title">Shelf Life</td>
+                      <td class="desc-value">12 Months</td>
+                    </tr>
+                    <tr>
+                      <td class="desc-title">Storage Instructions</td>
+                      <td class="desc-value">Store in a cool and dry place</td>
+                    </tr>
+                    
+                  </table>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="review-comment-area">
+                  <div class="review-buyer-box">
+                    <div class="buyer-review-inner clearfix">
+                      <div class="buyer-review-text headline">
+                        <h4>Ravish Kumar</h4>
+                        <span
+                          >Good quality rice with nice aroma. Cooks well and grains stay separate.
+                        </span>
+                        <div class="buyer-review-rate d-inline-block">
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                        </div>
+                        <div
+                          class="buyer-review-date position-relative d-inline-block"
+                        >
+                          19 Oct 2025
+                        </div>
+                      </div>
+                    </div>
+                    <div class="buyer-review-inner clearfix">
+                      <div class="buyer-review-text headline">
+                        <h4>Suma Reddy</h4>
+                        <span
+                          >Using this rice regularly for home cooking. Good taste and consistent quality.
+                        </span>
+                        <div class="buyer-review-rate d-inline-block">
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                          <a href="#"><i class="fas fa-star"></i></a>
+                        </div>
+                        <div
+                          class="buyer-review-date position-relative d-inline-block"
+                        >
+                          17 sept 2025
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buyer-review-comment-box headline">
+                    <h4 class="float-left">Add Review:</h4>
+                    <div class="customer-rate-option ul-li float-left">
+                      <ul>
+                        <li>
+                          <label class="customer-rate-option">
+                            <input
+                              type="checkbox"
+                              name="#"
+                              class="customer-rate"
+                              checked=""
+                            />
+                            <span class="rate-value"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label class="customer-rate-option">
+                            <input
+                              type="checkbox"
+                              name="#"
+                              class="customer-rate"
+                              checked=""
+                            />
+                            <span class="rate-value"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label class="customer-rate-option">
+                            <input
+                              type="checkbox"
+                              name="#"
+                              class="customer-rate"
+                              checked=""
+                            />
+                            <span class="rate-value"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label class="customer-rate-option">
+                            <input
+                              type="checkbox"
+                              name="#"
+                              class="customer-rate"
+                              checked=""
+                            />
+                            <span class="rate-value"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label class="customer-rate-option">
+                            <input
+                              type="checkbox"
+                              name="#"
+                              class="customer-rate"
+                            />
+                            <span class="rate-value"></span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                    <form id="buyer-review" action="#">
+                      <textarea placeholder="Write Your Review"></textarea>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name..."
+                      />
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email..."
+                      />
+                      <button type="submit">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Shop details description tab section
+	============================================= -->
+
+    <!-- Start of Footer section
+	============================================= -->
+  <footer
+      id="or-footer-1"
+      class="or-footer-section-1"
+      data-background="assets/img/bg/bg-footer-top.png"
+    >
+      <div class="or-footer-widget-wrapper-1" style="padding-top: 10px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="or-footer-widget headline pera-content ul-li-block">
+                <div class="or-logo-widget">
+                 <h1>Nam Angadi</h1>
+                  <!-- <p>
+                    We work with a passion of taking challenges and creating new
+                    ones in advertising sector.
+                  </p> -->
+                  <div class="footer-social">
+                    <a href="#" tabindex="0"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a href="#" tabindex="0"><i class="fab fa-instagram"></i></a>
+                    <a href="#" tabindex="0"><i class="fab fa-youtube"></i></a>
+                    <a href="#" tabindex="0"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="or-footer-widget headline pera-content ul-li-block">
+                <div class="or-menu-widget">
+                  <h2 class="widget-title">Links</h2>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="or-footer-widget headline pera-content ul-li-block">
+                <div class="or-contact-widget">
+                  <h2 class="widget-title">Official info:</h2>
+                  <ul>
+                    <li>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span
+                        > Bangalore 560056
+                      </span>
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i>
+                      <span> info@namangadi.com </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="or-footer-widget headline pera-content ul-li-block">
+                <div class="or-menu-widget">
+                  <h2 class="widget-title">Consumer Policy</h2>
+                  <ul>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                  </ul>
+                  </div>
+                  </div>
+                  </div>
+
+          </div>
+        </div>
+      </div>
+      <div
+        class="or-footer-copyright text-center"
+        data-background="assets/img/bg/bg-footer-bottom.png"
+      >
+        <span>© 2025 Nam Angadi. All rights reserved.   <div class="credits">
+                            Designed by <a href="https://hashtocolon.com/">Hashtocolon systems</a>
+                          </div></span>
+      </div>
+    </footer>
+    <!-- End of Footer section
+	============================================= -->
+
+    <!-- For Js Library -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.zoomit.min.js"></script>
+    <script src="assets/js/jquery.inputarrow.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/rbtools.min.js"></script>
+    <script src="assets/js/rs6.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
