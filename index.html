@@ -24,6 +24,12 @@
     <link rel="stylesheet" href="assets/css/slick-theme.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css" >
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+
+
 
 
   </head>
@@ -481,85 +487,99 @@
      Do More With Us
     </h2>
   </div>
-    <ul class="nav  row  g-0 ">
+   <div class="category-slider-wrapper">
+  <div class="swiper category-slider">
+    <ul class="swiper-wrapper">
 
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      <!-- ITEM -->
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/rices.jpeg" alt="">
           <h4>Rices</h4>
         </a>
-      </li><!-- End tab nav item -->
+      </li>
 
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/avalakki.jpg" alt="">
           <h4>Avalakki / Poha</h4>
+        </a>
+      </li>
 
-        </a><!-- End tab nav item -->
-
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/millet.jpg" alt="">
           <h4>Cereals & Millets</h4>
         </a>
-      </li><!-- End tab nav item -->
+      </li>
 
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/Pulses.webp" alt="">
           <h4>Pulses</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/Flours.webp" alt="">
           <h4>Flours</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/Oils.jpg" alt="">
           <h4>Oils & Oil Seeds</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/Sweatners.webp" alt="">
           <h4>Sweatners</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
-          <img src="assets/img/category/Salts.jpg " alt="">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
+          <img src="assets/img/category/Salts.jpg" alt="">
           <h4>Salts</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/Spices.webp" alt="">
           <h4>Spices</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/teacoffee.webp" alt="">
-          <h4>Tea and Coffee</h4>
+          <h4>Tea & Coffee</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/fruits.jpg" alt="">
           <h4>Fruits</h4>
         </a>
-      </li><!-- End tab nav item -->
-      <li class="nav-item col-2">
-        <a class="nav-link d-block text-center" href="products.html">
+      </li>
+
+      <li class="swiper-slide category-slide">
+        <a href="products.html">
           <img src="assets/img/category/dryfruits.webp" alt="">
-          <h4>Dry fruits</h4>
+          <h4>Dry Fruits</h4>
         </a>
-      </li><!-- End tab nav item -->
+      </li>
 
     </ul>
+  </div>
+</div>
+
     <!--
     <div class="tab-content">
 
@@ -3675,8 +3695,39 @@
     <script src="assets/js/rbtools.min.js"></script>
     <script src="assets/js/rs6.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script>
+    new Swiper(".category-slider", {
+    slidesPerView: 6,
+    spaceBetween: 16,
+    loop: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 1000,            
+      disableOnInteraction: false, 
+      pauseOnMouseEnter: true,     
+    },
+
+    speed: 700, 
+
+    breakpoints: {
+      0: {
+        slidesPerView: 2.5,
+      },
+      576: {
+        slidesPerView: 3.5,
+      },
+      768: {
+        slidesPerView: 4.5,
+      },
+      992: {
+        slidesPerView: 6,
+      }
+    }
+  });
+
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       centeredSlides: true,
