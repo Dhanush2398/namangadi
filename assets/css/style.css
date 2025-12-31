@@ -809,9 +809,9 @@ select:visited {
   position: relative;
   display: flex;
   align-items: center;
-
   background: #ffffff;
   border-radius: 30px;
+  border: 1.5px solid #e5e7eb;  
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
   overflow: hidden;
 }
@@ -820,11 +820,9 @@ select:visited {
 .organio-header-section.header-style-one .header-search-btn input {
   width: 100%;
   height: 48px;
-
   padding: 0 60px 0 18px;
   border: none;
   outline: none;
-
   font-size: 15px;
   color: #1b1a1a;
   background: transparent;
@@ -848,7 +846,7 @@ select:visited {
   border-radius: 50%;
 
   border: none;
-  background-color: #76a713;
+  background-color: #16A34A;
   cursor: pointer;
 
   display: flex;
@@ -4474,7 +4472,7 @@ select:visited {
 .or-testimonial-slider .slick-dots li.slick-active:before,
 .or-blog-slide .slick-dots li.slick-active:before,
 .or-category-main-slider .slick-dots li.slick-active:before {
-  background-color: #76a713;
+  background-color: #16A34A;
 }
 
 .best-deal-content-4 .best-deal-countdown li,
@@ -8749,7 +8747,7 @@ select:visited {
     font-size: 20px;
   }
 }
-/*---------------------------------------------------- */
+
 .search__box {
   height: 32px;
   width: 280px;
@@ -9288,7 +9286,7 @@ input[type="number"]::-webkit-outer-spin-button {
 @media (max-width: 576px) {
   .category-modern-card p {
     font-size: 10px;
-    padding: 10px 8px;
+    padding: 4px 8px;
   }
 }
 
@@ -9661,7 +9659,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .category-slider-wrapper{
-  padding: clamp(20px, 4vw, 45px) 10px 10px;
+  padding: clamp(4px, 2vw, 4px) 4px 2px;
 }
 
 .category-slider-wrapper .swiper{
@@ -9789,7 +9787,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: 600;
 
   color: #ffffff;
-  background-color: #76a713;
+  background-color: #16A34A !important;
   border-radius: 6px;
   text-decoration: none;
 
