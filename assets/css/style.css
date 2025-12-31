@@ -797,34 +797,83 @@ select:visited {
   
 }
 
+.organio-header-section.header-style-one .header-search-btn {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.organio-header-section.header-style-one .header-search-btn form {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+
 .organio-header-section.header-style-one .header-search-btn input {
-  width: 100% ;
-  max-width: 100% ;
-  padding-right: 46px;
+  width: 100%;
+  height: 48px;
+
+  padding: 0 60px 0 18px;
   border: none;
   outline: none;
-  background: transparent;
+
   font-size: 15px;
   color: #1b1a1a;
-  height:48px;
+  background: transparent;
 }
+
+
+.organio-header-section.header-style-one .header-search-btn input::placeholder {
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+
 .organio-header-section.header-style-one .header-search-btn button {
-  border: none;
-  background-color: transparent;
   position: absolute;
+  right: 6px;
   top: 50%;
-  right:14px;
   transform: translateY(-50%);
-  background: none;
-  padding: 0;
+
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+
+  border: none;
+  background-color: #76a713;
   cursor: pointer;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
 }
 
+
 .organio-header-section.header-style-one .header-search-btn button i {
-  font-size: 16px;
-  color: #333;
+  font-size: 15px;
+  color: #ffffff;
 }
+
+
+.organio-header-section.header-style-one .header-search-btn button:hover {
+  background-color: #e91e21;
+}
+
+
+.organio-header-section.header-style-one .header-search-btn input:focus {
+  background-color: #ffffff;
+}
+
 .organio-header-section.header-style-one .header-search-btn.cart-btn {
   display: none;
 }
@@ -7880,7 +7929,7 @@ select:visited {
   }
 
   .organio-header-section.header-style-one .header-top .header-slug span {
-    font-size: 12px;
+    font-size: 10px;
  
   }
 }
@@ -8740,7 +8789,6 @@ select:visited {
 
 .or-product-list {
   width: 100%;
-  padding: 16px 12px;
   box-sizing: border-box;
 }
 
@@ -9659,7 +9707,7 @@ input[type="number"]::-webkit-outer-spin-button {
 @media (max-width: 400px){
   .category-slider-wrapper .category-slide h4{
     max-width: 90px;
-    font-size: 12.5px;
+    font-size: 8px;
   }
 }
 
