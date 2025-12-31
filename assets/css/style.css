@@ -8710,110 +8710,140 @@ select:visited {
 .or-product-cat .cat-box {
   padding: 8px;
 }
+/* ================================
+   PRODUCT LIST SECTION
+================================ */
 .or-product-list {
-  padding: 14px 0;
-
-  
+  width: 100%;
+  padding: 16px 12px;
+  box-sizing: border-box;
 }
 
+/* ================================
+   GRID LAYOUT
+================================ */
+.product-grid {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+  box-sizing: border-box;
+}
 
+/* Large laptops */
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ================================
+   PRODUCT CARD
+================================ */
 .or-product-list .box {
-  padding: 7px;
-  width: 140px;
-  background-color: #f9fbf7;
-  border: 1px solid #eaeaea;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #004040;
+  border-radius: 16px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
-.or-product-list .box {
-  margin-right: 8px;
-  margin-bottom: 2px;
-
+/* ================================
+   PRODUCT IMAGE
+================================ */
+.or-product-list .box img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
 }
 
-
-
-.or-product-list img {
-  background-color: #fdf7e9;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  height: 120px;
-}
-.or-product-list .box h5 {
-  font-size: 12px;
-  margin-bottom: 0.2rem;
-  font-weight: 300;
-  color: #7f7f7f;
-}
+/* ================================
+   TEXT STYLES
+================================ */
 .or-product-list .box h2 {
-  font-size: 16px;
-  margin-bottom: 0.25rem;
-  font-weight: 600;
-  color: #F7E9E9;
-
-  line-height: 1.25;
-
-  min-height: 40px;
-  max-height: 40px;
-
-  display: block;
-  overflow: hidden;
-
-  
-}
-.or-product-list .box h3 {
   font-size: 15px;
-  margin-bottom: 0rem;
-  color: #F7E9E9;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.3;
+  min-height: 38px;
+  max-height: 38px;
+  overflow: hidden;
+  margin-bottom: 4px;
 }
+
+.or-product-list .box h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #e0ffff;
+  margin-bottom: 6px;
+}
+
 .or-product-list .box h4 {
   font-size: 12px;
-  margin-bottom: 0rem;
-  color: #E0FFFF;
+  color: #cfcfcf;
   text-decoration: line-through;
-  
+  margin-bottom: 2px;
 }
+
 .or-product-list .box h1 {
   font-size: 18px;
-  margin-bottom: 0rem;
-  font-weight: 600;
-  color: #E0FFFF;
+  font-weight: 700;
+  color: #e0ffff;
+  margin-bottom: 0;
 }
+
+/* ================================
+   PRICE + BUTTON ROW
+================================ */
+.or-product-list .box .d-flex {
+  margin-top: auto;
+}
+
+/* ================================
+   ADD BUTTON
+================================ */
 .or-product-list .box a {
   font-size: 12px;
   font-weight: 800;
-  color: #f0f0f0;
+  color: #ffffff;
   background-color: #e91e21;
-  padding: 4px 16px;
-  box-shadow: 0px 0px 3px rgba(127, 137, 161, 0.3);
-
+  padding: 6px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-
-
-/*.or-product-list table {
-  border-collapse: separate;
-  border-spacing: 18px -1px; }  /* 👈 reduced vertical gap */
-
-
-
-
+/* ================================
+   SAFETY RESET (IMPORTANT)
+================================ */
+.or-product-list table,
+.or-product-list tr,
 .or-product-list td {
-  padding: 0px;
-  vertical-align: top;
+  display: none !important;
 }
-
-/* card color */
-.or-product-list td > .box {
-  background-color:/*#614051*/ #004040;
-}
-
-.or-product-list td {
-  background: transparent;
-}
-
-
 
 
 
@@ -8853,10 +8883,7 @@ select:visited {
 
 
 
-  .or-product-list > .container {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .or-sort-bar {
     position: relative;
