@@ -8892,6 +8892,7 @@ select:visited {
   padding: 6px 18px;
   text-decoration: none;
   white-space: nowrap;
+  border-radius: 0; 
 }
 
 
