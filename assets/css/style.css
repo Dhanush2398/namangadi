@@ -8710,18 +8710,14 @@ select:visited {
 .or-product-cat .cat-box {
   padding: 8px;
 }
-/* ================================
-   PRODUCT LIST SECTION
-================================ */
+
 .or-product-list {
   width: 100%;
   padding: 16px 12px;
   box-sizing: border-box;
 }
 
-/* ================================
-   GRID LAYOUT
-================================ */
+
 .product-grid {
   width: 100%;
   max-width: 100%;
@@ -8731,14 +8727,14 @@ select:visited {
   box-sizing: border-box;
 }
 
-/* Large laptops */
+
 @media (max-width: 1200px) {
   .product-grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-/* Tablets */
+
 @media (max-width: 992px) {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -8752,9 +8748,7 @@ select:visited {
   }
 }
 
-/* ================================
-   PRODUCT CARD
-================================ */
+
 .or-product-list .box {
   width: 100%;
   height: 100%;
@@ -8768,9 +8762,7 @@ select:visited {
   box-sizing: border-box;
 }
 
-/* ================================
-   PRODUCT IMAGE
-================================ */
+
 .or-product-list .box img {
   width: 100%;
   height: 130px;
@@ -8780,9 +8772,7 @@ select:visited {
   margin-bottom: 10px;
 }
 
-/* ================================
-   TEXT STYLES
-================================ */
+
 .or-product-list .box h2 {
   font-size: 15px;
   font-weight: 600;
@@ -8815,16 +8805,12 @@ select:visited {
   margin-bottom: 0;
 }
 
-/* ================================
-   PRICE + BUTTON ROW
-================================ */
+
 .or-product-list .box .d-flex {
   margin-top: auto;
 }
 
-/* ================================
-   ADD BUTTON
-================================ */
+
 .or-product-list .box a {
   font-size: 12px;
   font-weight: 800;
@@ -8836,9 +8822,7 @@ select:visited {
   white-space: nowrap;
 }
 
-/* ================================
-   SAFETY RESET (IMPORTANT)
-================================ */
+
 .or-product-list table,
 .or-product-list tr,
 .or-product-list td {
