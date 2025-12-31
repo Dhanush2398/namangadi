@@ -149,16 +149,39 @@ Color Code
   display: block;
   list-style: none;
 }
-
 #preloader {
   position: fixed;
-  left: 0;
-  top: 0;
+  inset: 0;
   z-index: 99999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #ffff url("../img/preloader.gif") no-repeat center center;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.preloader-text {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #004040;
+  animation: pulse 1.2s infinite ease-in-out;
+}
+
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
 }
 
 [data-background] {
@@ -2107,7 +2130,6 @@ select:visited {
 }
 
 .or-category-main-slider {
-  padding-top: 25px;
   padding-left: 10px;
   padding-bottom: 10px;
   /*background-color: #004040;*/
@@ -4354,12 +4376,7 @@ select:visited {
   border-bottom: 1px solid #e8e8e8;
 }
 
-.or-best-deal-slider-2,
-.or-testimonial-slider,
-.or-blog-slide,
-.or-category-main-slider {
-  padding-top: 35px;
-}
+
 .or-best-deal-slider-2 .slick-dots li button:before,
 .or-testimonial-slider .slick-dots li button:before,
 .or-blog-slide .slick-dots li button:before,
@@ -8753,7 +8770,7 @@ select:visited {
   width: 100%;
   height: 100%;
   padding: 10px;
-  background-color: #004040;
+  background-color: #016B61;
   border-radius: 16px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
   display: flex;
@@ -8815,7 +8832,7 @@ select:visited {
   font-size: 12px;
   font-weight: 800;
   color: #ffffff;
-  background-color: #e91e21;
+  background-color: #70B2B2;
   padding: 6px 18px;
   border-radius: 8px;
   text-decoration: none;
