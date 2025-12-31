@@ -7871,9 +7871,12 @@ select:visited {
 
   }
 
-  .organio-header-section.header-style-one .header-top .header-slug {
-    display: none;
+
+@media (max-width: 576px) {
+  .organio-header-section.header-style-one .header-top .header-slug span {
+    font-size: 10px;
   }
+}
 
   .or-blog-innerbox {
     margin: 0 auto;
