@@ -1823,7 +1823,7 @@ select:visited {
   height: 50px;
   border: none;
   position: absolute;
-  background-color: #76a713;
+  background-color: #16A34A;
 }
 
 .mobile_menu_wrap.mobile_menu_on .mobile_menu_content {
@@ -1865,11 +1865,11 @@ select:visited {
   width: 40px;
   font-size: 24px;
   cursor: pointer;
-  color: #76a713;
+  color: #16A34A;
   line-height: 38px;
   position: absolute;
   text-align: center;
-  border: 1px solid #76a713;
+  border: 1px solid #16A34A;
 }
 
 .mobile_menu .mobile-main-navigation .navbar-nav li a:after {
@@ -9535,7 +9535,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .feature-highlight-section {
-  padding: 70px 0;
+  padding: 20px 0;
   background: #f8fafc;
 }
 
